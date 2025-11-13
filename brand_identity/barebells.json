@@ -1,0 +1,253 @@
+{
+  "brand_profile": {
+    "brand_name": "Barebells",
+    "tagline": "Simply Irresistible Protein",
+    "founded": 2016,
+    "core_identity": {
+      "mission": "To prove that protein-enriched products don't have to taste bland but can be simply irresistible",
+      "vision": "Brighten and shake up the protein-enriched category with delicious alternatives",
+      "values": [
+        "Happy eating",
+        "Healthier living",
+        "Never compromise on flavour",
+        "Inclusivity and diversity in product offerings",
+        "Breaking category conventions"
+      ],
+      "brand_personality": [
+        "Bold",
+        "Playful",
+        "Confident",
+        "Approachable",
+        "Energetic",
+        "Unapologetically indulgent"
+      ]
+    },
+    "visual_identity": {
+      "color_palette": {
+        "primary_colors": [
+          {
+            "name": "Vibrant Orange",
+            "hex": "#FF6B35",
+            "usage": "Primary brand color, packaging for peanut caramel variants"
+          },
+          {
+            "name": "Black",
+            "hex": "#000000",
+            "usage": "Typography, contrast, premium feel"
+          },
+          {
+            "name": "Cream/Beige",
+            "hex": "#F5E6D3",
+            "usage": "Secondary color, caramel variants, warmth"
+          }
+        ],
+        "secondary_colors": [
+          {
+            "name": "Coral Pink",
+            "hex": "#FF9B9B",
+            "usage": "Background, lifestyle photography, feminine appeal"
+          },
+          {
+            "name": "Bright Red",
+            "hex": "#FF3333",
+            "usage": "Accent color, energy, attention-grabbing"
+          },
+          {
+            "name": "Sky Blue",
+            "hex": "#87CEEB",
+            "usage": "Product photography backgrounds, freshness"
+          },
+          {
+            "name": "Bright Yellow",
+            "hex": "#FFD700",
+            "usage": "Pineapple variant, energy, optimism"
+          },
+          {
+            "name": "Soft Purple",
+            "hex": "#B19CD9",
+            "usage": "Cherry variant, variety, playfulness"
+          }
+        ],
+        "color_strategy": "Bold, saturated colors that break away from traditional fitness industry aesthetics. Each product variant has its own distinctive color identity while maintaining brand cohesion through consistent typography and layout."
+      },
+      "typography": {
+        "primary_font": {
+          "style": "Bold, condensed sans-serif",
+          "characteristics": "Strong, impactful, slightly retro-inspired",
+          "usage": "Product names, headlines, key messaging"
+        },
+        "secondary_font": {
+          "style": "Clean sans-serif",
+          "characteristics": "Legible, modern, straightforward",
+          "usage": "Nutritional information, body copy, descriptors"
+        },
+        "typographic_style": "Mix of uppercase bold headlines with clear hierarchy. Product names are prominently displayed in large, confident lettering."
+      },
+      "logo": {
+        "style": "Wordmark with custom lettering",
+        "characteristics": "Friendly, approachable, slightly playful with rounded elements",
+        "variations": "Appears in black on light backgrounds, white on dark backgrounds"
+      }
+    },
+    "packaging_design": {
+      "structure": "Rectangular bar wrapper with distinctive wavy/scalloped edges",
+      "layout_principles": [
+        "Bold color blocking",
+        "Clear product name hierarchy",
+        "Transparent window or product photography showing texture",
+        "Key benefits prominently displayed (protein content, no added sugar)",
+        "Flavor name as hero element"
+      ],
+      "material_aesthetic": "Glossy, premium finish that suggests indulgence rather than clinical nutrition",
+      "distinctive_elements": [
+        "Wavy/scalloped wrapper edges that create visual interest",
+        "High contrast between background color and typography",
+        "Chocolate coating and texture visible through packaging or photography",
+        "Soft protein bar designation rather than hard/crunchy"
+      ]
+    },
+    "photography_style": {
+      "composition": [
+        "Clean, minimalist backgrounds with solid bold colors",
+        "Hand-held product shots showing human interaction",
+        "Overhead flat-lay arrangements",
+        "Product stacking to show texture and layers",
+        "Strategic use of negative space"
+      ],
+      "lighting": "Bright, even lighting with soft shadows that create depth without harshness",
+      "props": [
+        "Coffee cups",
+        "Minimal lifestyle elements",
+        "Clean surfaces (white plates, modern tableware)",
+        "Gym equipment occasionally"
+      ],
+      "aesthetic": "Instagram-ready, lifestyle-focused rather than clinical or gym-centric. Appeals to broader audience beyond hardcore fitness enthusiasts."
+    },
+    "product_range": {
+      "protein_bars": {
+        "variants": [
+          "Caramel Cashew",
+          "Salted Peanut Caramel",
+          "Chocolate Spread",
+          "Hazelnut Spread"
+        ],
+        "key_features": [
+          "20g protein per bar",
+          "No added sugar",
+          "Soft texture",
+          "Milk chocolate coating",
+          "Indulgent flavors"
+        ]
+      },
+      "protein_drinks": {
+        "variants": [
+          "Pineapple Sunrise",
+          "Wild Strawberry",
+          "Sweet Cherry"
+        ],
+        "key_features": [
+          "10g protein",
+          "200mg caffeine",
+          "Carbonated",
+          "Sugar-free",
+          "12 FL OZ (355mL)"
+        ]
+      }
+    },
+    "brand_voice": {
+      "tone": [
+        "Confident and bold",
+        "Playful without being childish",
+        "Honest and straightforward",
+        "Enthusiastic about flavor",
+        "Inclusive and welcoming"
+      ],
+      "messaging_pillars": [
+        "Flavor-first approach",
+        "No compromise between health and taste",
+        "Happy eating philosophy",
+        "Breaking protein product stereotypes",
+        "Accessible wellness"
+      ],
+      "key_phrases": [
+        "Simply Irresistible",
+        "No Added Sugar",
+        "High Protein",
+        "Soft Protein Bar",
+        "Happy eating and healthier living"
+      ]
+    },
+    "target_audience": {
+      "primary": {
+        "demographics": "Ages 25-40, health-conscious consumers, active lifestyle",
+        "psychographics": "Value both health and indulgence, reject bland 'diet' foods, social media savvy, seek balance not extremes",
+        "behaviors": "Regular gym-goers, busy professionals, snack replacers, dessert seekers"
+      },
+      "secondary": {
+        "demographics": "Ages 18-24 and 40-55, fitness beginners to enthusiasts",
+        "psychographics": "Curious about protein products, want convenient nutrition, prioritize taste",
+        "behaviors": "Occasional exercisers, meal preppers, on-the-go eaters"
+      }
+    },
+    "brand_positioning": {
+      "category": "Premium protein-enriched snacks and beverages",
+      "differentiation": "Taste-forward protein products that rival conventional confectionery and beverages in flavor while delivering functional nutrition",
+      "competitive_advantage": [
+        "Superior taste profile",
+        "Bold, lifestyle-oriented branding",
+        "Diverse product range",
+        "No added sugar without compromising sweetness",
+        "Soft texture bars (vs. hard/chewy competitors)"
+      ]
+    },
+    "brand_experience": {
+      "sensory_attributes": {
+        "visual": "Bold, colorful, modern, appetizing",
+        "taste": "Indulgent, sweet, satisfying, dessert-like",
+        "texture": "Soft, creamy, smooth chocolate coating",
+        "emotional": "Guilt-free pleasure, satisfaction, energy, confidence"
+      },
+      "customer_journey_touchpoints": [
+        "Eye-catching shelf presence",
+        "Social media discovery",
+        "Influencer recommendations",
+        "Taste trial and conversion",
+        "Repeat purchase and variety exploration",
+        "Brand advocacy and sharing"
+      ]
+    },
+    "marketing_approach": {
+      "channels": [
+        "Instagram and TikTok (primary)",
+        "Retail partnerships",
+        "Fitness influencer collaborations",
+        "Lifestyle content creation",
+        "E-commerce platforms"
+      ],
+      "content_strategy": [
+        "Product photography with bold backgrounds",
+        "Lifestyle integration shots",
+        "Flavor announcements and launches",
+        "User-generated content",
+        "Behind-the-scenes product development",
+        "Nutritional education without being preachy"
+      ],
+      "brand_partnerships": "Gyms, fitness studios, health food retailers, lifestyle brands aligned with balanced living"
+    },
+    "design_principles": {
+      "key_tenets": [
+        "Bold over boring",
+        "Flavor visibility",
+        "Clean and uncluttered",
+        "Color as communication",
+        "Premium but approachable",
+        "Photography over illustration",
+        "Transparency in ingredients and benefits"
+      ]
+    },
+    "brand_evolution": {
+      "since_2016": "Expanded from protein bars to beverages, maintained consistent visual identity while growing product range",
+      "future_direction": "Continue category disruption, expand flavor innovation, maintain taste leadership, grow international presence"
+    }
+  }
+}

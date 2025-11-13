@@ -1,0 +1,357 @@
+{  
+  "brand_name": "Known Nutrition",  
+  "tagline": "Supplements that work and taste good",  
+    
+  "core_identity": {  
+    "mission": "Empower people to take control of their health and well-being through naturally formulated supplements that work and taste good",  
+    "vision": "Revolutionizing the health supplements industry by breaking the misconception that nutrition and flavour are mutually exclusive",  
+    "values": [  
+      "Taste-driven adherence",  
+      "Natural formulation",  
+      "Innovation without compromise",  
+      "Accessibility for all",  
+      "Real, measurable benefits",  
+      "Transparency and trust"  
+    ],  
+    "brand_promise": "Effective supplements you'll actually enjoy taking every day",  
+    "positioning": "Premium wellness brand that bridges the gap between efficacy and enjoyment in the supplement industry"  
+  },  
+    
+  "brand_personality": {  
+    "archetype": "The Caregiver meets The Innovator",  
+    "traits": [  
+      "Approachable",  
+      "Trustworthy",  
+      "Modern",  
+      "Health-conscious",  
+      "Optimistic",  
+      "Empowering",  
+      "Fresh",  
+      "Vibrant"  
+    ],  
+    "tone_of_voice": {  
+      "descriptors": ["Friendly", "Encouraging", "Knowledgeable", "Conversational", "Positive"],  
+      "communication_style": "Warm and accessible while maintaining credibility through expertise"  
+    }  
+  },  
+    
+  "visual_identity": {  
+    "color_palette": {  
+      "primary_colors": [  
+        {  
+          "name": "Sky Blue",  
+          "hex": "#A8D8EA",  
+          "usage": "Primary brand color, backgrounds, hero sections",  
+          "psychology": "Trust, calm, wellness, clarity"  
+        },  
+        {  
+          "name": "Soft Pink",  
+          "hex": "#FFB6C1",  
+          "usage": "Secondary accent, beauty/wellness products",  
+          "psychology": "Nurturing, gentle, approachable"  
+        },  
+        {  
+          "name": "Teal/Turquoise",  
+          "hex": "#4ECDC4",  
+          "usage": "Logo, product labels, CTAs",  
+          "psychology": "Balance, healing, rejuvenation"  
+        }  
+      ],  
+      "secondary_colors": [  
+        {  
+          "name": "Coral/Salmon",  
+          "hex": "#FF6B6B",  
+          "usage": "Gummy product colors, accents",  
+          "psychology": "Energy, vitality, warmth"  
+        },  
+        {  
+          "name": "Warm Orange",  
+          "hex": "#FFA07A",  
+          "usage": "Energy products, vitamin highlights",  
+          "psychology": "Enthusiasm, health, vibrancy"  
+        },  
+        {  
+          "name": "Fresh Green",  
+          "hex": "#90EE90",  
+          "usage": "Natural ingredients, wellness messaging",  
+          "psychology": "Growth, natural, organic"  
+        }  
+      ],  
+      "neutral_colors": [  
+        {  
+          "name": "Pure White",  
+          "hex": "#FFFFFF",  
+          "usage": "Product bottles, clean backgrounds, text"  
+        },  
+        {  
+          "name": "Charcoal Gray",  
+          "hex": "#36454F",  
+          "usage": "Typography, product information"  
+        },  
+        {  
+          "name": "Soft Gray",  
+          "hex": "#F5F5F5",  
+          "usage": "Backgrounds, subtle sections"  
+        }  
+      ]  
+    },  
+      
+    "typography": {  
+      "primary_font": {  
+        "style": "Serif (elegant, refined)",  
+        "characteristics": "Thin, sophisticated letterforms with high contrast",  
+        "usage": "Headlines, hero text, brand statements",  
+        "example": "Similar to Didot, Playfair Display, or Bodoni"  
+      },  
+      "secondary_font": {  
+        "style": "Sans-serif (modern, clean)",  
+        "characteristics": "Geometric, bold, highly legible",  
+        "usage": "Body copy, product descriptions, CTAs",  
+        "example": "Similar to Montserrat, Avenir, or Gotham"  
+      },  
+      "logo_font": {  
+        "style": "Custom sans-serif",  
+        "characteristics": "Vertical orientation, modern, minimalist",  
+        "usage": "Brand name on packaging and marketing materials"  
+      }  
+    },  
+      
+    "logo_design": {  
+      "format": "Wordmark with vertical orientation",  
+      "characteristics": [  
+        "Minimalist design",  
+        "Vertical 'Known' text",  
+        "Clean, modern sans-serif",  
+        "Often appears in teal/turquoise",  
+        "High contrast for visibility"  
+      ],  
+      "variations": [  
+        "Primary: Vertical orientation on white",  
+        "Secondary: Horizontal layout for digital",  
+        "Icon: Simplified 'K' or brand mark"  
+      ]  
+    },  
+      
+    "photography_style": {  
+      "approach": "Lifestyle and product-focused",  
+      "characteristics": [  
+        "Bright, natural lighting",  
+        "Fresh, vibrant food styling",  
+        "Clean, minimal compositions",  
+        "Pastel and soft color backgrounds",  
+        "Natural ingredients prominently featured",  
+        "Geometric product displays",  
+        "Overhead and flat-lay arrangements"  
+      ],  
+      "subjects": [  
+        "Fresh fruits (citrus, berries, watermelon)",  
+        "Vegetables and leafy greens",  
+        "Nuts and natural ingredients",  
+        "Product bottles in styled settings",  
+        "Lifestyle moments (subtle, not overly staged)"  
+      ]  
+    },  
+      
+    "design_elements": {  
+      "patterns": [  
+        "Circular compositions",  
+        "Geometric platforms and pedestals",  
+        "Layered depth with product staging"  
+      ],  
+      "textures": [  
+        "Smooth, matte surfaces",  
+        "Natural stone and rock",  
+        "Water and reflective surfaces",  
+        "Organic food textures"  
+      ],  
+      "shapes": [  
+        "Circles (primary)",  
+        "Rounded rectangles",  
+        "Soft, organic forms",  
+        "Cylindrical product bottles"  
+      ]  
+    }  
+  },  
+    
+  "packaging_design": {  
+    "bottle_design": {  
+      "shape": "Cylindrical, pharmaceutical-style",  
+      "material": "Clear or frosted plastic",  
+      "cap": "White screw-top lid",  
+      "size_indicators": "Visible gummy count (e.g., 60 gummies)"  
+    },  
+    "label_design": {  
+      "layout": "Vertical orientation matching logo",  
+      "background": "White or light colored",  
+      "brand_placement": "Prominent 'Known' wordmark",  
+      "product_info": "Clear benefit statements",  
+      "certifications": "Vegan, natural, quality badges",  
+      "color_coding": "Product-specific accent colors for different formulations"  
+    },  
+    "product_visibility": "Transparent packaging shows gummy colors",  
+    "information_hierarchy": [  
+      "Brand name (Known)",  
+      "Product benefit (e.g., 'VITAMIN D', 'PRE-WORKOUT')",  
+      "Key features",  
+      "Quantity and dosage",  
+      "Certifications"  
+    ]  
+  },  
+    
+  "product_range": {  
+    "categories": [  
+      {  
+        "name": "Immunity Support",  
+        "products": ["Vitamin D", "Vitamin C"],  
+        "color_theme": "Orange/amber tones"  
+      },  
+      {  
+        "name": "Beauty & Wellness",  
+        "products": ["Hair, Skin & Nails", "Hyaluronic Acid", "Clear Skin"],  
+        "color_theme": "Pink/coral tones"  
+      },  
+      {  
+        "name": "Digestive Health",  
+        "products": ["Pre + Pro Gut Support"],  
+        "color_theme": "Green/natural tones"  
+      },  
+      {  
+        "name": "Performance",  
+        "products": ["Pre-Workout"],  
+        "color_theme": "Dark/energetic tones"  
+      },  
+      {  
+        "name": "General Wellness",  
+        "products": ["Magnesium", "Multivitamins"],  
+        "color_theme": "Various"  
+      }  
+    ],  
+    "format": "Gummy supplements",  
+    "key_features": [  
+      "Vegan-friendly",  
+      "Natural flavors",  
+      "No artificial colors",  
+      "Delicious tropical and fruit flavors",  
+      "Easy to incorporate into daily routine"  
+    ]  
+  },  
+    
+  "brand_messaging": {  
+    "key_messages": [  
+      "Supplements that actually taste good",  
+      "Natural formulations with real benefits",  
+      "Over 40 years of industry expertise",  
+      "Making wellness enjoyable and accessible",  
+      "No compromise between taste and efficacy"  
+    ],  
+    "headlines_style": [  
+      "Need a Boost?",  
+      "Why You'll Love It",  
+      "Do More",  
+      "Discover the rest of our Beauty range"  
+    ],  
+    "call_to_action_examples": [  
+      "SHOP IMMUNITY",  
+      "Discover the range",  
+      "Find your supplement"  
+    ]  
+  },  
+    
+  "target_audience": {  
+    "primary": {  
+      "demographics": "Adults 25-45, health-conscious, urban/suburban",  
+      "psychographics": [  
+        "Value wellness but struggle with supplement adherence",  
+        "Seek convenience without sacrificing quality",  
+        "Appreciate aesthetics and experience",  
+        "Willing to invest in premium health products",  
+        "Active on social media, influenced by lifestyle trends"  
+      ],  
+      "pain_points": [  
+        "Supplements that taste bad or are hard to swallow",  
+        "Uncertainty about product efficacy",  
+        "Difficulty maintaining consistent supplement routines",  
+        "Overwhelmed by complex supplement regimens"  
+      ]  
+    },  
+    "secondary": {  
+      "demographics": "Young adults 18-24, fitness enthusiasts, beauty-conscious consumers",  
+      "psychographics": [  
+        "Prioritize self-care and preventative health",  
+        "Influenced by visual appeal and brand aesthetics",  
+        "Seek products that fit their lifestyle",  
+        "Value transparency and natural ingredients"  
+      ]  
+    }  
+  },  
+    
+  "brand_experience": {  
+    "retail_presence": {  
+      "display_strategy": "Clean, organized product walls with clear categorization",  
+      "merchandising": "Pink and branded display units, grouped by benefit",  
+      "in_store_elements": "Prominent brand signage, product testers where applicable"  
+    },  
+    "digital_presence": {  
+      "website_aesthetic": "Clean, modern, pastel-focused with lifestyle imagery",  
+      "user_experience": "Easy navigation by health goal or product type",  
+      "content_strategy": "Educational content about ingredients and benefits"  
+    },  
+    "customer_journey": {  
+      "awareness": "Lifestyle content, influencer partnerships, retail visibility",  
+      "consideration": "Detailed product information, taste guarantees, reviews",  
+      "purchase": "Easy online ordering, retail availability, promotional offers",  
+      "retention": "Subscription options, loyalty programs, educational content"  
+    }  
+  },  
+    
+  "competitive_advantages": {  
+    "differentiators": [  
+      "Taste-first formulation approach",  
+      "40+ years of industry expertise",  
+      "Comprehensive product range in gummy format",  
+      "Premium aesthetic at accessible price point",  
+      "Natural ingredients without compromise",  
+      "Vegan-friendly across range"  
+    ],  
+    "unique_selling_propositions": [  
+      "The only supplement brand that prioritizes taste as much as efficacy",  
+      "Making daily wellness a treat, not a chore",  
+      "Backed by decades of formulation expertise"  
+    ]  
+  },  
+    
+  "brand_guidelines_summary": {  
+    "dos": [  
+      "Use fresh, natural imagery with vibrant colors",  
+      "Maintain clean, minimal compositions",  
+      "Emphasize taste and enjoyment alongside benefits",  
+      "Feature real ingredients in photography",  
+      "Use approachable, encouraging language",  
+      "Showcase product transparency (visible gummies)"  
+    ],  
+    "donts": [  
+      "Avoid clinical or overly medical aesthetics",  
+      "Don't use dark, heavy color schemes",  
+      "Avoid complicated scientific jargon",  
+      "Don't show pills or traditional supplement formats",  
+      "Avoid cluttered or busy designs",  
+      "Don't make unsubstantiated health claims"  
+    ]  
+  },  
+    
+  "future_brand_evolution": {  
+    "opportunities": [  
+      "Expand into new wellness categories",  
+      "Develop seasonal or limited-edition flavors",  
+      "Create personalized supplement bundles",  
+      "Build stronger community through content and education",  
+      "Explore sustainable packaging innovations"  
+    ],  
+    "brand_extensions": [  
+      "Wellness beverages",  
+      "Functional snacks",  
+      "Supplement subscription boxes",  
+      "Educational wellness platform"  
+    ]  
+  }  
+}

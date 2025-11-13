@@ -1,0 +1,186 @@
+{
+  "brand_identity": {
+    "core_identity": {
+      "brand_name": "Perfect Ted",
+      "product_category": "Matcha-based energy drinks and beverages",
+      "brand_personality": "Bold, playful, energetic, youthful, health-conscious, fun, irreverent",
+      "positioning": "Healthy energy drinks with a vibrant, lifestyle-focused approach",
+      "tone": "Confident, cheeky, approachable, modern"
+    },
+    
+    "color_palette": {
+      "primary_colors": [
+        "Vibrant lime green (#00FF00 range)",
+        "Bright white (#FFFFFF)"
+      ],
+      "secondary_colors": [
+        "Hot pink/magenta (#FF1493 range)",
+        "Sunshine yellow (#FFD700 range)",
+        "Electric purple (#9B30FF range)",
+        "Deep red (#DC143C range)"
+      ],
+      "accent_colors": [
+        "Natural matcha green (muted sage)",
+        "Cream/off-white for beverages"
+      ],
+      "background_colors": [
+        "Bold saturated colors (purple, red, blue)",
+        "Neutral whites and grays",
+        "Natural outdoor settings"
+      ],
+      "color_strategy": "High contrast, saturated, eye-catching, unapologetically bold"
+    },
+    
+    "typography": {
+      "logo_style": "Bold, chunky, retro-inspired lettering",
+      "brand_name_treatment": "'PERFECT' in bold uppercase, 'Ted' in script/cursive style",
+      "product_text": "Bold white uppercase letters for product names (MATCHA LATTE, HEALTHY ENERGY)",
+      "hierarchy": "Strong contrast between bold headers and smaller supporting text",
+      "character": "Playful, confident, slightly vintage feel"
+    },
+    
+    "packaging_design": {
+      "label_layout": {
+        "top_section": "Flavor color wave/gradient",
+        "middle_section": "Dominant lime green background",
+        "brand_placement": "Center, large and prominent",
+        "product_name": "Bold white text below brand name"
+      },
+      "design_elements": [
+        "Curved wave/organic shapes separating color zones",
+        "Clean, modern minimalist approach",
+        "High legibility from distance",
+        "Flavor-specific color coding (pink=strawberry, yellow=vanilla, green=matcha)"
+      ],
+      "messaging": "ALL NATURAL, NO ADDED SUGAR prominently displayed. MATCHA MADE EASY is their trademark",
+      "visual_flow": "Top to bottom color gradient/transition"
+    },
+    
+    "photography_style": {
+      "composition": {
+        "framing": "Dynamic angles, often low-angle hero shots, close-ups with dramatic perspective",
+        "product_placement": "Product as hero, often oversized or exaggerated in frame",
+        "human_subjects": "Partial body shots, focus on hands holding product, lifestyle moments",
+        "scale_play": "Intentional size distortion (giant cans, surreal proportions)"
+      },
+      "lighting": {
+        "quality": "Bright, high-key lighting with strong clarity",
+        "direction": "Natural outdoor light or clean studio lighting",
+        "mood": "Energetic, optimistic, vibrant",
+        "shadows": "Minimal to moderate, maintaining product visibility"
+      },
+      "color_grading": {
+        "saturation": "Highly saturated, punchy colors",
+        "contrast": "High contrast for visual impact",
+        "tone": "Warm to neutral, clean and fresh",
+        "consistency": "Vibrant across all images, no muted tones"
+      },
+      "settings": {
+        "locations": [
+          "Sports courts (tennis, basketball)",
+          "Beach/outdoor natural settings",
+          "Clean studio backgrounds with bold color backdrops",
+          "Home/lifestyle settings",
+          "Urban outdoor environments"
+        ],
+        "props": "Minimal, product-focused, occasional lifestyle props (sunglasses, athletic wear)",
+        "surfaces": "Clean, simple (wood tables, concrete, sand)"
+      }
+    },
+    
+    "lifestyle_aesthetic": {
+      "target_audience": "Active, health-conscious millennials and Gen Z (20-35 years)",
+      "lifestyle_themes": [
+        "Athletic/fitness lifestyle",
+        "Outdoor adventure",
+        "Social connection",
+        "Playful confidence",
+        "Wellness without compromise"
+      ],
+      "wardrobe": {
+        "colors": "Predominantly green matching brand, neutral beiges/creams, athletic wear",
+        "style": "Casual-athletic, modern, clean, coordinated with brand colors",
+        "accessories": "Sunglasses, athletic shoes, minimal jewelry"
+      },
+      "body_language": "Confident, energetic, joyful, dynamic poses, celebratory gestures",
+      "diversity": "Inclusive representation, various ethnicities and body types"
+    },
+    
+    "visual_motifs": {
+      "recurring_elements": [
+        "Hands holding/pouring product",
+        "Layered matcha drinks showing gradient",
+        "Group cheers/toasting with cans",
+        "Product in action (being consumed, poured)",
+        "Oversized product hero shots"
+      ],
+      "texture_focus": "Smooth can surfaces, condensation, liquid layers, ice",
+      "patterns": "Organic waves, color blocking, geometric simplicity"
+    },
+    
+    "content_categories": {
+      "product_showcase": {
+        "style": "Clean, minimal backgrounds, product-forward",
+        "angles": "Straight-on, slight tilt for dynamism",
+        "context": "Standalone or paired flavors"
+      },
+      "lifestyle_action": {
+        "style": "Dynamic, energetic, in-motion or posed action",
+        "settings": "Sports venues, outdoor locations",
+        "mood": "Aspirational, achievable, fun"
+      },
+      "consumption_moments": {
+        "style": "Close-up, intimate, sensory",
+        "focus": "The drinking experience, product interaction",
+        "details": "Hands, lips, pouring, mixing"
+      },
+      "social_connection": {
+        "style": "Group shots, celebration, shared moments",
+        "composition": "Multiple hands/people, products together",
+        "emotion": "Joy, friendship, community"
+      }
+    },
+    
+    "brand_messaging": {
+      "key_claims": [
+        "All natural",
+        "No added sugar",
+        "Healthy energy",
+        "Matcha-based"
+      ],
+      "value_propositions": [
+        "Clean energy without compromise",
+        "Functional wellness meets great taste",
+        "Lifestyle-enhancing beverage"
+      ],
+      "brand_voice": "Confident, playful, health-positive, unpretentious"
+    },
+    
+    "technical_specifications": {
+      "image_quality": "High resolution, sharp focus, professional commercial photography",
+      "aspect_ratios": "Square (1:1) and vertical (4:5, 9:16) for social media optimization",
+      "file_formats": "WebP for web optimization",
+      "consistency": "Cohesive visual language across all touchpoints"
+    },
+    
+    "differentiation_strategy": {
+      "vs_traditional_energy": "Cleaner, more natural, lifestyle-focused vs aggressive/extreme",
+      "vs_wellness_drinks": "More fun, bold, and energetic vs overly serious/clinical",
+      "unique_position": "The intersection of health, energy, and playful confidence"
+    },
+    
+    "image_generation_prompt_framework": {
+      "base_formula": "[SUBJECT] + [ACTION/POSE] + [SETTING] + [LIGHTING] + [COLOR PALETTE] + [MOOD] + [COMPOSITION] + [BRAND ELEMENTS]",
+      "essential_elements": [
+        "Vibrant lime green as dominant brand color",
+        "High saturation and contrast",
+        "Clean, modern aesthetic",
+        "Product prominently featured",
+        "Energetic, confident mood",
+        "Professional commercial photography quality",
+        "Lifestyle context or bold color backdrop"
+      ],
+      "style_keywords": "commercial product photography, high-key lighting, vibrant colors, lifestyle brand aesthetic, modern wellness, energetic, bold, playful, clean composition, professional quality"
+    }
+  }
+}

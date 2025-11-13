@@ -1,0 +1,205 @@
+{
+  "brand_creative_guidelines": {
+    "brand_essence": {
+      "tagline": "Fuel Your Ambition",
+      "core_message": "You set the goal. We deliver proven support to reach it.",
+      "brand_voice": "Empowering, direct, action-oriented. Motivational without being intimidating. Speaks to the doer, not the dreamer."
+    },
+    "target_audience": {
+      "primary_icp": {
+        "persona": "The Committed Achiever",
+        "age": "22-35",
+        "profile": "Gym regular (3-5x/week), tracks macros, follows fitness influencers, values results over hype. Budget-conscious but won't compromise on quality. Seeks visible progress and measurable gains.",
+        "pain_points": [
+          "Expensive supplements eating into budget",
+          "Confusing nutrition advice and overcomplicated products",
+          "Inconsistent results from low-quality proteins",
+          "Limited options for dietary restrictions"
+        ],
+        "motivations": [
+          "Visible muscle gains and strength progress",
+          "Getting maximum value without sacrificing quality",
+          "Hitting protein targets consistently",
+          "Looking and feeling their best"
+        ],
+        "language_they_use": "Gains, macros, bulk, cut, PR (personal record), shred, lean, recovery, pump"
+      },
+      "secondary_icp": {
+        "persona": "The Wellness Optimizer",
+        "age": "28-42",
+        "profile": "Active lifestyle (running, yoga, HIIT), health-focused rather than bodybuilding-focused. Wants clean ingredients and transparency. Often vegan/vegetarian or flexitarian.",
+        "motivations": [
+          "Overall health and longevity",
+          "Sustainable fitness routine",
+          "Clean, ethical nutrition",
+          "Balanced, energized lifestyle"
+        ]
+      }
+    },
+    "visual_identity": {
+      "color_palette": {
+        "primary": {
+          "energetic_coral": "#E85D3F",
+          "usage": "CTAs, energy, action, primary brand presence",
+          "emotion": "Motivation, vitality, urgency"
+        },
+        "secondary": {
+          "cream": "#F5F1E8",
+          "deep_teal": "#1A4D4D",
+          "usage": "Contrast, sophistication, trust signals"
+        },
+        "accent": {
+          "chocolate_brown": "#3D2817",
+          "usage": "Product shots, flavor cues, warmth"
+        }
+      },
+      "design_principles": {
+        "composition": "Bold diagonal lines creating forward momentum. Asymmetric geometric blocks. Dynamic, not static.",
+        "energy_level": "High-impact but not chaotic. Confident and purposeful.",
+        "photography_style": [
+          "Real people, real results - not overly polished",
+          "Warm, natural lighting with golden hour tones",
+          "Action shots: mid-workout, post-gym, shake preparation",
+          "Diverse body types and fitness levels",
+          "Product integration feels natural, not forced"
+        ],
+        "layout_rules": [
+          "Diagonal divisions create movement",
+          "Bold typography dominates - headlines are unmissable",
+          "Generous white space around key messages",
+          "Product always visible and prominent",
+          "Stats/numbers in large, bold type"
+        ]
+      },
+      "typography": {
+        "headlines": "Bold, condensed sans-serif. ALL CAPS for impact. Short, punchy statements.",
+        "body": "Clean, readable sans-serif. Keep it brief.",
+        "numbers": "Extra bold, oversized for nutritional stats (35G PROTEIN)"
+      }
+    },
+    "messaging_framework": {
+      "headline_formulas": [
+        "[NUMBER]G PROTEIN. ZERO EXCUSES.",
+        "YOUR GOAL. OUR FUEL. REAL RESULTS.",
+        "BULK SMARTER. NOT HARDER.",
+        "EVERY REP COUNTS. EVERY SCOOP DELIVERS.",
+        "QUALITY GAINS. ACCESSIBLE PRICE.",
+        "FROM [CURRENT STATE] TO [GOAL STATE]. WE'VE GOT YOU."
+      ],
+      "power_words": [
+        "Fuel",
+        "Power",
+        "Gains",
+        "Impact",
+        "Build",
+        "Boost",
+        "Proven",
+        "Real",
+        "Every",
+        "Your",
+        "Results",
+        "Ambition"
+      ],
+      "tone_guidelines": {
+        "do": [
+          "Use active, commanding verbs (Fuel, Build, Power, Achieve)",
+          "Lead with benefits and results, not features",
+          "Speak directly to the user (You, Your)",
+          "Be specific with numbers (35g protein, 387 calories)",
+          "Create urgency without pressure",
+          "Acknowledge the work they're putting in"
+        ],
+        "dont": [
+          "Use fitness bro clichés or toxic gym culture language",
+          "Shame or create insecurity",
+          "Overcomplicate the science",
+          "Make unrealistic promises",
+          "Use passive voice",
+          "Be preachy or condescending"
+        ]
+      },
+      "message_hierarchy": {
+        "primary": "The tangible benefit (Build muscle, Boost recovery, Hit your macros)",
+        "secondary": "The proof point (35g protein, Award-winning quality, Trusted since 2004)",
+        "tertiary": "The accessibility angle (Affordable, For everyone, All dietary needs)"
+      }
+    },
+    "ad_creative_templates": {
+      "social_media_ads": {
+        "format": "Square (1:1) or Vertical (4:5) for Instagram/Facebook",
+        "structure": {
+          "visual": "Product shot with dynamic diagonal background OR action shot with product integration",
+          "headline": "Bold, 3-7 words max, top third of image",
+          "stat_callout": "Large nutritional benefit (35G PROTEIN) in contrasting color",
+          "cta": "Bottom right, coral orange, action-oriented"
+        },
+        "example_concepts": [
+          "Split screen: 'Before gym' vs 'After shake' with energy contrast",
+          "Macro shot of powder scoop with bold '35G PROTEIN PER SERVING' overlay",
+          "Athlete mid-rep with 'EVERY REP COUNTS. EVERY SCOOP DELIVERS.' headline"
+        ]
+      },
+      "display_ads": {
+        "format": "Leaderboard, rectangle, skyscraper",
+        "structure": {
+          "left_third": "Product shot on cream background",
+          "right_two_thirds": "Diagonal coral block with headline + key stat + CTA",
+          "trust_badge": "Small award icon or 'Trusted since 2004' in corner"
+        }
+      },
+      "video_ads": {
+        "duration": "15-30 seconds",
+        "structure": {
+          "0-3s": "Hook - Bold text question or statement ('Struggling to hit your protein goals?')",
+          "3-10s": "Problem/Solution - Quick cuts of workout + product",
+          "10-20s": "Proof - Stats overlay, product benefits, real results",
+          "20-30s": "CTA - 'Fuel your ambition' + website/offer"
+        },
+        "visual_style": "Fast-paced cuts, warm color grade, energetic music, real gym environments"
+      }
+    },
+    "key_differentiators_for_ads": {
+      "proof_points": [
+        "World's #1 online sports nutrition brand",
+        "35g protein per serving (Impact Whey Gainer)",
+        "Trusted since 2004",
+        "Award-winning quality",
+        "ISO9001 certified",
+        "Options for every diet (vegan, vegetarian, dairy-free, gluten-free)"
+      ],
+      "competitive_angles": [
+        "Premium quality, accessible price",
+        "No BS, just results",
+        "Science-backed, not hype-backed",
+        "For real people with real goals"
+      ]
+    },
+    "cta_library": {
+      "primary_ctas": [
+        "Fuel Your Ambition",
+        "Shop Now",
+        "Start Building",
+        "Get Yours",
+        "Power Up"
+      ],
+      "urgency_ctas": [
+        "Limited Time Offer",
+        "Stock Up Now",
+        "Don't Miss Out",
+        "Claim Your Gains"
+      ],
+      "soft_ctas": [
+        "Learn More",
+        "Explore Range",
+        "Find Your Fuel",
+        "See The Difference"
+      ]
+    },
+    "seasonal_campaign_angles": {
+      "new_year": "NEW YEAR. NEW GAINS. SAME PROVEN QUALITY.",
+      "summer": "SUMMER SHRED STARTS HERE.",
+      "back_to_gym": "BACK TO THE GRIND. BACK TO BASICS.",
+      "bulk_season": "BULK SEASON IS HERE. ARE YOU READY?"
+    }
+  }
+}
