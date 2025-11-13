@@ -8,9 +8,9 @@ class PromptResponse(BaseModel):
     prompts: List[str] = Field(description="List of generated prompts")
 
 
-def generate_openai_prompts(prompt: str):
+def generate_prompts(prompt: str, model: str):
     prompt_generator_agent = Agent(
-        "openai:gpt-5",
+        f"{model}",
         output_type=PromptResponse,
         system_prompt=(
             f"""{prompt}

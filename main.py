@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from PIL import Image
 from io import BytesIO
 from typing import Literal, List
-from agents.openai_prompt_agent import generate_openai_prompts
+from agents.prompt_agent import generate_prompts
 from internal_prompts.image_gen_prompts import (
     base_prompt,
     infographic_prompt,
@@ -19,7 +19,7 @@ load_dotenv()
 
 class GoogleGenAI:
     def __init__(self):
-        self.api_key = os.getenv("GOOGLE_API_KEY")
+        self.api_key = os.getenv("GEMINI_API_KEY")
         self.client = genai.Client(api_key=self.api_key)
         self.negative_prompt = "ugly, low quality"  # @param {type: "string"}
         self.aspect_ratio = "16:9"  # @param ["16:9","9:16"]
@@ -28,59 +28,79 @@ class GoogleGenAI:
         self.GEMINI_IMG_MODEL_ID = "gemini-2.5-flash-image"
         self.number_of_videos = 1
         self.number_of_image_variations = 6
+        self.agent_model = "google-gla:gemini-2.5-pro"
 
         with open("brand_identity/barebells.json", "r") as f:
             data = json.load(f)  # This gives you a dict
         self.brand_identity = json.dumps(data)
 
-    def generate_all_prompts(self) -> List[str]:
+    def generate_all_prompts(self, product_description) -> List[str]:
         prompts = []
-        prompts.extend(self._generate_product_prompts(self.number_of_image_variations))
         prompts.extend(
-            self._generate_infographic_prompts(self.number_of_image_variations)
+            self._generate_product_prompts(
+                self.number_of_image_variations, product_description
+            )
         )
         prompts.extend(
-            self._generate_highlight_prompts(self.number_of_image_variations)
+            self._generate_infographic_prompts(
+                self.number_of_image_variations, product_description
+            )
+        )
+        prompts.extend(
+            self._generate_highlight_prompts(
+                self.number_of_image_variations, product_description
+            )
         )
         return prompts
 
-    def _generate_product_prompts(self, number_of_image_variations) -> List[str]:
+    def _generate_product_prompts(
+        self, number_of_image_variations, product_description
+    ) -> List[str]:
         if number_of_image_variations <= 0:
             raise ValueError("Image variations need to be 1 or more")
 
         prompt = (
-            base_prompt.format(number_of_image_variations=number_of_image_variations)
+            base_prompt.format(
+                number_of_image_variations=number_of_image_variations,
+                product_description=product_description,
+            )
             + self.brand_identity
         )
-        prompt_response = generate_openai_prompts(prompt)
+        prompt_response = generate_prompts(prompt, self.agent_model)
         print(prompt_response)
         return [p for p in prompt_response.prompts]
 
-    def _generate_infographic_prompts(self, number_of_image_variations) -> List[str]:
+    def _generate_infographic_prompts(
+        self, number_of_image_variations, product_description
+    ) -> List[str]:
         if number_of_image_variations <= 0:
             raise ValueError("Image variations need to be 1 or more")
 
         prompt = (
             infographic_prompt.format(
-                number_of_image_variations=number_of_image_variations
+                number_of_image_variations=number_of_image_variations,
+                product_description=product_description,
             )
             + self.brand_identity
         )
-        prompt_response = generate_openai_prompts(prompt)
+        prompt_response = generate_prompts(prompt, self.agent_model)
         print(prompt_response)
         return [p for p in prompt_response.prompts]
 
-    def _generate_highlight_prompts(self, number_of_image_variations) -> List[str]:
+    def _generate_highlight_prompts(
+        self, number_of_image_variations, product_description
+    ) -> List[str]:
         if number_of_image_variations <= 0:
             raise ValueError("Image variations need to be 1 or more")
 
         prompt = (
             product_highlight_prompt.format(
-                number_of_image_variations=number_of_image_variations
+                number_of_image_variations=number_of_image_variations,
+                product_description=product_description,
             )
             + self.brand_identity
         )
-        prompt_response = generate_openai_prompts(prompt)
+        prompt_response = generate_prompts(prompt, self.agent_model)
         print(prompt_response)
         return [p for p in prompt_response.prompts]
 
@@ -104,6 +124,23 @@ class GoogleGenAI:
         image_bytes_io = BytesIO()
         im.save(image_bytes_io, format=im.format)
         image_bytes = image_bytes_io.getvalue()
+
+        # analyse image
+
+        client = genai.Client()
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=[
+                types.Part.from_bytes(
+                    data=image_bytes,
+                    mime_type="image/jpeg",
+                ),
+                "Caption this image with as much detail as possible",
+            ],
+        )
+
+        print(response.text)
+        image_description_text = response.text
 
         if creative_type == "video":
             operation = self.client.models.generate_videos(
@@ -132,20 +169,22 @@ class GoogleGenAI:
                     f"output/{output_folder}/vid_{n}.mp4"
                 )  # Saves the video(s)
         elif creative_type == "img":
-            # gen_prompts = self.generate_all_prompts()
-            # with open(f"internal_prompts/{output_folder}_prompts.py", "w") as f:
-            #     f.write("prompts = [\n")
-            #     for prompt in gen_prompts:
-            #         # Escape quotes and backslashes in the prompt text
-            #         escaped_prompt = prompt.replace("\\", "\\\\").replace("'", "\\'")
-            #         f.write(f"    '{escaped_prompt}',\n")
-            #     f.write("]\n")
-
-            from internal_prompts.au_vodka_prompts import (
-                prompts,
+            gen_prompts = self.generate_all_prompts(
+                product_description=image_description_text
             )
+            with open(f"internal_prompts/{output_folder}_prompts.py", "w") as f:
+                f.write("prompts = [\n")
+                for prompt in gen_prompts:
+                    # Escape quotes and backslashes in the prompt text
+                    escaped_prompt = prompt.replace("\\", "\\\\").replace("'", "\\'")
+                    f.write(f"    '{escaped_prompt}',\n")
+                f.write("]\n")
 
-            gen_prompts = prompts
+            # from internal_prompts.au_vodka_prompts import (
+            #     prompts,
+            # )
+
+            # gen_prompts = prompts
 
             for i, prompt in enumerate(gen_prompts):
                 split_threshold = len(gen_prompts) / 3
@@ -341,5 +380,5 @@ if __name__ == "__main__":
   }
 }"""
 
-    g.generate_creative("img", "n", "input_img/barebells.png", "barebells")
+    g.generate_creative("img", "n", "input_img/vanilla_can.png", "p_ted")
     # g.generate_creative("video", prompt, "input_img/PR&Outreach.png", "spike")
