@@ -1,0 +1,266 @@
+{
+  "brand_name": "GLAMIRA",
+  "tagline": "Personalized Luxury Jewelry",
+  
+  "core_identity": {
+    "mission": "To perfect every special and emotional moment through quality, trust, and personalized jewelry design",
+    "vision": "To become the world's leading luxury consumer brand through product range expansion",
+    "philosophy": "Everyone is special and unique",
+    "core_values": [
+      "Personalization & Freedom of Choice",
+      "Quality & Craftsmanship",
+      "Trust & Reliability",
+      "Emotional Connection",
+      "Boutique Approach",
+      "Innovation in E-commerce"
+    ],
+    "brand_personality": [
+      "Sophisticated",
+      "Contemporary",
+      "Accessible Luxury",
+      "Empowering",
+      "Trustworthy",
+      "Modern"
+    ]
+  },
+
+  "visual_identity": {
+    "color_palette": {
+      "primary_colors": [
+        {
+          "name": "Luxe Gold",
+          "hex": "#D4AF37",
+          "usage": "Primary metal tone, represents luxury and timelessness"
+        },
+        {
+          "name": "Warm Gold",
+          "hex": "#F4C430",
+          "usage": "Jewelry highlights, premium feel"
+        }
+      ],
+      "secondary_colors": [
+        {
+          "name": "Pure White",
+          "hex": "#FFFFFF",
+          "usage": "Clean backgrounds, minimalism, purity"
+        },
+        {
+          "name": "Soft Cream",
+          "hex": "#F5F5F0",
+          "usage": "Background, subtle elegance"
+        },
+        {
+          "name": "Deep Black",
+          "hex": "#000000",
+          "usage": "Contrast, sophistication, clothing in imagery"
+        },
+        {
+          "name": "Charcoal Gray",
+          "hex": "#36454F",
+          "usage": "Secondary contrast, modern edge"
+        }
+      ],
+      "accent_colors": [
+        {
+          "name": "Soft Pink",
+          "hex": "#FFE4E1",
+          "usage": "Feminine touch, nail polish in imagery, softness"
+        },
+        {
+          "name": "Natural Skin Tone",
+          "hex": "#F5D7C4",
+          "usage": "Human connection, warmth, relatability"
+        }
+      ]
+    },
+
+    "typography": {
+      "style": "Clean, modern, and legible",
+      "characteristics": [
+        "Sans-serif for contemporary feel",
+        "Elegant serif options for luxury positioning",
+        "Clear hierarchy",
+        "Readable across digital platforms"
+      ]
+    },
+
+    "photography_style": {
+      "approach": "Lifestyle and product-focused",
+      "characteristics": [
+        "Clean, minimalist backgrounds",
+        "Natural skin tones and authentic models",
+        "Focus on jewelry details and craftsmanship",
+        "Soft, natural lighting",
+        "Close-up and medium shots",
+        "Lifestyle context (casual wear with jewelry)"
+      ],
+      "composition": [
+        "Product as hero",
+        "Human element for emotional connection",
+        "Negative space for elegance",
+        "Multiple angles showcasing versatility"
+      ],
+      "mood": [
+        "Confident",
+        "Contemporary",
+        "Approachable luxury",
+        "Effortlessly elegant",
+        "Personal and intimate"
+      ]
+    }
+  },
+
+  "product_aesthetic": {
+    "design_language": {
+      "style": "Contemporary with timeless elements",
+      "characteristics": [
+        "Geometric patterns (pyramids, diamonds, hearts)",
+        "Delicate chain work",
+        "Textured surfaces",
+        "Layering capability",
+        "Mix-and-match versatility",
+        "Statement pieces with subtle elegance"
+      ]
+    },
+    "product_categories_visible": [
+      "Rings (statement, geometric, personalized)",
+      "Necklaces (layered, pendant, chain)",
+      "Bracelets (bangles, chain)",
+      "Earrings (drop, statement)"
+    ],
+    "materials": {
+      "primary": "Gold (various tones)",
+      "finishes": [
+        "Polished",
+        "Textured",
+        "Matte",
+        "Mixed finishes"
+      ],
+      "embellishments": [
+        "Diamonds",
+        "Gemstones",
+        "Intricate metalwork"
+      ]
+    }
+  },
+
+  "brand_positioning": {
+    "market_segment": "Accessible luxury jewelry with personalization",
+    "target_audience": {
+      "demographics": [
+        "Modern women aged 25-45",
+        "Middle to upper-middle income",
+        "Globally minded consumers",
+        "Digital-first shoppers"
+      ],
+      "psychographics": [
+        "Value individuality and self-expression",
+        "Appreciate quality and craftsmanship",
+        "Seek meaningful, emotional purchases",
+        "Desire personalization and uniqueness",
+        "Confident and contemporary",
+        "Balance tradition with modernity"
+      ]
+    },
+    "competitive_advantages": [
+      "Full personalization freedom",
+      "Boutique approach at scale",
+      "Global e-commerce infrastructure",
+      "End-to-end production control",
+      "65 countries, 76 online stores",
+      "Strong team of 650 people"
+    ]
+  },
+
+  "brand_experience": {
+    "customer_journey": [
+      "Discovery through digital channels",
+      "Personalization and customization",
+      "Quality assurance and trust-building",
+      "Emotional connection to purchase",
+      "Special moment celebration"
+    ],
+    "touchpoints": [
+      "E-commerce platforms (76 stores)",
+      "Digital marketing",
+      "Social media presence",
+      "Customer service across 8 countries",
+      "Product photography and content"
+    ],
+    "emotional_benefits": [
+      "Self-expression",
+      "Confidence",
+      "Uniqueness",
+      "Celebration of special moments",
+      "Personal connection to jewelry"
+    ]
+  },
+
+  "content_strategy": {
+    "visual_themes": [
+      "Everyday luxury",
+      "Personal style expression",
+      "Layering and styling versatility",
+      "Close-up craftsmanship details",
+      "Lifestyle integration"
+    ],
+    "styling_approach": [
+      "Casual-chic aesthetic",
+      "Mix of statement and delicate pieces",
+      "Layered jewelry looks",
+      "Minimalist fashion to highlight jewelry",
+      "Natural, effortless beauty"
+    ],
+    "model_direction": [
+      "Confident posing",
+      "Natural expressions",
+      "Hands showcasing jewelry",
+      "Intimate, personal moments",
+      "Contemporary, relatable beauty"
+    ]
+  },
+
+  "operational_excellence": {
+    "scale": {
+      "team_size": "650 people",
+      "countries_operating": 65,
+      "office_locations": [
+        "Germany",
+        "Switzerland",
+        "United States",
+        "England",
+        "Norway",
+        "Australia",
+        "Bulgaria",
+        "Turkey"
+      ],
+      "online_stores": 76
+    },
+    "production_approach": "Boutique approach with full control from design to final production",
+    "business_model": "Global e-commerce with personalization at core"
+  },
+
+  "brand_attributes": {
+    "functional": [
+      "High-quality materials",
+      "Customizable designs",
+      "Wide product range",
+      "Global accessibility",
+      "Reliable craftsmanship"
+    ],
+    "emotional": [
+      "Personal significance",
+      "Confidence boost",
+      "Self-expression",
+      "Celebration of uniqueness",
+      "Emotional moments"
+    ],
+    "symbolic": [
+      "Modern luxury",
+      "Individual identity",
+      "Contemporary elegance",
+      "Global sophistication",
+      "Personal empowerment"
+    ]
+  }
+}

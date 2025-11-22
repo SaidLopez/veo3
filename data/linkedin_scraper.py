@@ -50,8 +50,8 @@ def scrape_linkedin_by_profile_url(profile_url: str):
     data = [
         {
             "url": f"{profile_url}",
-            "start_date": "2025-08-30T00:00:00.000Z",
-            "end_date": "2025-11-03T00:00:00.000Z",
+            # "start_date": "2024-12-01T00:00:00.000Z",
+            # "end_date": "2025-11-10T00:00:00.000Z",
         },
     ]
 
